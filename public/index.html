@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name = "description" content="A Hub for entertainment news and updates">
+    <meta name = "author" content = "Ederuvie Owen Udusegbe">
+    <meta name = "keywords" content = "Hub, Gaming, Anime, Gaming News, Anime News, Movies, Films, Music, Streamers, Streaming, Google">
+    <link rel="icon" type="image/x-icon" href="media/f.ico">
+    <title>Inglorious Gunther</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body class="text-black font-body">
+
+    <div class="lg:grid lg:grid-cols-3"><!-- content wrapper-->
+        <div class="lg:col-span-1"><!-- nav -->
+            <nav class="text-left">
+
+                <div class="flex justify-between items-center"><!-- title -->
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-300">
+                        <a href="/" class="text-violet-500 hover:text-violet-700">Inglorious Gunther</a>
+                    </h1>
+
+                    <div class="cursor-pointer lg:hidden p-4 bg-gray-500 bg-opacity-50" id="burger"><!-- burger menu -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                          </svg>
+                    </div>
+                </div>
+                <ul class="mt-6 hidden lg:block" id="menu"><!-- nav links -->
+                    <li class="font-bold py-1">
+                        <a href="#" class="flex px-2 border-l-4 border-violet-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                              </svg>
+                            <span>Home</span>
+                        </a>
+                    <li class="py-1">
+                        <a href="#" class="flex px-2 border-l-4 border-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                            <span>About</span>
+                        </a>
+                    <li class="py-1">
+                        <a href="#" class="flex px-2 border-l-4 border-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                              </svg>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div><!-- end nav-->
+
+        <main class="px-16 py-6 bg-gray-200 md:col-span-2">
+            <div class="card2 p-3 mb-10 flex justify-between"><!-- log/sign -->
+                <a href="#" class="btn bg-white text-black no-underline border-2 border-violet-800 hover:bg-violet-700 hover:text-white transition ease-out duration-300">Log In</a>
+                <a href="#" class="btn ml-3 bg-white text-black no-underline border-2 border-pink-700 hover:bg-pink-500 hover:text-white transition ease-out duration-300">Sign Up</a>
+            </div>
+
+            <header>
+                <h2 class="mb-5 text-6xl font-serif font-semibold">THE DEEP DIVE</h2>
+                <h3 class="text-2xl font-mono">Enter Into the Rabbit Hole</h3>
+            </header>
+
+            <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-500">Latest News</h4>
+
+                <div class="mt-8 grid lg:grid-cols-2 gap-10"><!-- card -->
+
+                    <div class="card hover:shadow-lg hover:scale-110 transition ease-in-out duration-500">
+                        <a href="https://gamerant.com/gaming/" target="_blank">
+                            <img src="media/gaming-logos.png" title="Game News" alt="gamerant.com/gaming" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">Gaming News</span>
+                                <span class="block font-mono mt-2 text-gray-500 text-xs">by GameRant</span>
+                            </div>
+                            <!-- <div class="badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 MINS</span>
+                            </div> -->
+                        </a>
+                    </div>
+
+                    <div class="card hover:shadow-lg hover:scale-110 transition ease-in-out duration-500">
+                        <a href="https://collider.com/movie-news/" target="_blank">
+                            <img src="media/movie-logos.jpg" title="Entertainment News" alt="collider.com/movie-news/" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">Entertainment News</span>
+                                <span class="block font-mono mt-2 text-gray-500 text-xs">by Collider</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card hover:shadow-lg hover:scale-110 transition ease-in-out duration-500">
+                        <a href="https://www.autocar.co.uk/car-news" target="_blank">
+                            <img src="media/cars.jpg" title="Automobile News" alt="autocar.co.uk/car-news" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">Automobile News</span>
+                                <span class="block font-mosno mt-2 text-gray-500 text-xs">by GameRant</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-500">Entertainment Hub</h4>
+                
+                <div class="mt-8 grid lg:grid-cols-2 gap-5"><!-- card -->
+                    
+                    <div class="card hover:shadow-lg hover:scale-105 transition ease-in-out duration-500">
+                        <a href="https://www.thegamer.com/category/streamer-news/" target="_blank">
+                            <img src="media/streamers.jpg" title="Streamers Updates" alt="thegamer.com/movie-news/" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">World of Streaming</span>
+                                <span class="block font-mono mt-2 text-gray-500 text-xs">by TheGamer</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card hover:shadow-lg hover:scale-105 transition ease-in-out duration-500">
+                        <a href="https://www.twitch.tv/directory/all/tags/77017b7b-6b98-4f0d-bd39-3ba96b66ec7a" target="_blank">
+                            <img src="media/Twitch.jpg" title="Twitch Updates" alt="twitch.tv" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">Watch Twitch Streamers</span>
+                                <span class="block font-mono mt-2 text-gray-500 text-xs">by Twitch.tv</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card hover:shadow-lg hover:scale-105 transition ease-in-out duration-500">
+                        <a href="https://www.animenewsnetwork.com/" target="_blank">
+                            <img src="media/anime-news.jpg" title="Otaku Updates" alt="autocar.co.uk/car-news" class="w-full h-32 sm:h-48 object-contain">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">World of Anime x Mangas</span>
+                                <span class="block font-mono mt-2 text-gray-500 text-xs">by Anime News Network</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="card hover:shadow-lg hover:scale-105 transition ease-in-out duration-500">
+                        <a href="https://9anime.to/home" target="_blank">
+                            <img src="media/watch-anime-2.jpg" title="Watch Anime" alt="9anime.to" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold font-serif">Watch Anime</span>
+                                <span class="block font-mono mt-2 text-gray-500 text-xs">by 9Anime</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="flex justify-center mt-8">
+                    <div class="btn bg-blue-600 text-white transform hover:scale-110 hover:bg-opacity-50 transition ease-out duration-300">Load more</div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+
+    <div class="pt-20 pb-10 pl-20 pr-20 bg-gradient-to-b from-black via-slate-700 to-gray-800 text-white font-body">
+        
+        <div class="flex justify-evenly mb-32 p-2 rounded-lg"> 
+            <a class="hover:scale-110" href="https://github.com/eduvieowen" target="_blank">
+                <img class="w-10 rounded-full" src="media/github.png" alt="GitHub" title="GitHub"> 
+            </a>    
+                      
+            <a class="hover:scale-110" href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
+                <img class="w-10" src="media/twitter-white.png" alt="Email" title="Email"> 
+            </a>
+
+            <a class="hover:scale-110" href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
+                <img class="w-10" src="media/email-white.png" alt="Email" title="Email"> 
+            </a>
+        </div>
+        <footer>
+            <div class="flex justify-between">
+                <div class="hover:opacity-70 cursor-pointer" >
+                    <a href="https://eduvieowen.netlify.app/" target="_blank">
+                        <img class="w-4 inline" src="media/f.ico">
+                        <span class="text-sm text-gray-300">
+                            Copyright © <span class="italic font-mono">2022</span> Inglurious Gunther
+                        </span>
+                    </a>
+                </div>
+                <div class="hover:opacity-70 cursor-pointer" >
+                    <a href="https://eduvieowen.netlify.app/" target="_blank">
+                        <div class="hover:opacity-70 text-sm text-gray-300 pl-6">
+                            Designed by 
+                            <span class="font-sans italic font-semibold">
+                                Eduvie Owen U.
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+        </footer>
+    </div>
+</body>
+</html>
