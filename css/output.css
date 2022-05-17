@@ -506,16 +506,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
-.mb-32{
-  margin-bottom: 8rem;
-}
-
 .mb-20{
   margin-bottom: 5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
 }
 
 .block{
@@ -572,10 +564,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .cursor-pointer{
   cursor: pointer;
-}
-
-.items-center{
-  align-items: center;
 }
 
 .justify-center{
@@ -681,10 +669,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
-.p-5{
-  padding: 1.25rem;
-}
-
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -711,22 +695,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-20{
   padding-top: 5rem;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
-.pl-20{
-  padding-left: 5rem;
-}
-
-.pr-20{
-  padding-right: 5rem;
-}
-
-.pl-6{
-  padding-left: 1.5rem;
 }
 
 .text-left{
@@ -942,20 +910,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px){
-  .sm\:mb-10{
-    margin-bottom: 2.5rem;
-  }
-
   .sm\:h-48{
     height: 12rem;
   }
 
   .sm\:pb-10{
     padding-bottom: 2.5rem;
-  }
-
-  .sm\:text-center{
-    text-align: center;
   }
 }
 
@@ -976,12 +936,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
-  .md\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
-  .md\:pl-5{
-    padding-left: 1.25rem;
+  .md\:pb-0{
+    padding-bottom: 0px;
   }
 
   .md\:pl-8{
@@ -998,16 +954,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-column: span 1 / span 1;
   }
 
-  .lg\:mb-32{
-    margin-bottom: 8rem;
-  }
-
   .lg\:block{
     display: block;
-  }
-
-  .lg\:flex{
-    display: flex;
   }
 
   .lg\:grid{
@@ -1026,19 +974,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:justify-evenly{
-    justify-content: space-evenly;
-  }
-
   .lg\:pl-20{
     padding-left: 5rem;
   }
 
   .lg\:pr-20{
     padding-right: 5rem;
-  }
-
-  .lg\:pb-10{
-    padding-bottom: 2.5rem;
   }
 }

@@ -3,6 +3,7 @@ module.exports = {
     "./scripts/**/*.{html,js}",
     "./index.html"
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -10,5 +11,8 @@ module.exports = {
       }
     },
   },
+  
+  darkMode: 'class',
+  
   plugins: [],
 }
