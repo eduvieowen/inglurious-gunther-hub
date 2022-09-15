@@ -189,7 +189,8 @@
                         </a>
                     </div>
 
-                    <div class="card-2 col-span-full hover:shadow-lg hover:scale-105 transition ease-in-out duration-500">
+                    <div
+                        class="card-2 col-span-full hover:shadow-lg hover:scale-105 transition ease-in-out duration-500">
                         <!-- <img src="./media/" title="Watch Anime" alt="Gamenight.png"
                             class="w-full h-32 sm:h-48 object-cover"> -->
                         <div class="m-4">
@@ -199,23 +200,24 @@
                             <div></div>
 
                             <h5 class="font-serif text-center mt-8">MALES</h5>
-                            <button class="bg-green-700 p-3 text-lg" id="randomMaleBtn" onclick="displayMales()">
-                                RANDOMISE
-                            </button>
-
-                            <h5 class="font-serif text-center">FEMALES</h5>
-                            <button class="bg-green-700 p-3 text-lg text-center" id="randomMaleBtn" onclick="displayFemales()">
-                                RANDOMISE
-                            </button>
-                            
+                            <div id="maleContainer" class="text-center bg-lime-500 border-2 border-violet-500"></div>
                             <div id="grid" class="grid grid-cols-2 col-span-2">
-                            <div id="maleContainer"></div>
-                            <div id="femaleContainer"></div>
-                            <!-- Data From JS File "randomName.js" -->
+                                <button class="bg-green-700 p-3 text-lg" id="randomMaleBtn" onclick="displayMales()">
+                                    RANDOMISE
+                                </button>
+
+                                <h5 class="font-serif text-center">FEMALES</h5>
+                                <div id="femaleContainer" class="text-center bg-lime-500 border-2 border-violet-500"></div>
+
+                                <button class="bg-slate-700 p-3 text-lg text-center" id="randomMaleBtn"
+                                    onclick="displayFemales()">
+                                    RANDOMISE
+                                </button>
+                                <!-- Data From JS File "randomName.js" -->
+                            </div>
                         </div>
-                        </div>
-                        
-                        
+
+
                     </div>
 
                 </div>
